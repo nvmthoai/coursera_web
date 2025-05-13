@@ -1,7 +1,12 @@
 import "./App.css";
 import React from "react";
+import MainRoutes from "./Routes/MainRoutes";
 function App() {
-  return <>Hello World</>;
+  return (
+    <>
+      <MainRoutes />
+    </>
+  );
 }
 
 export default App;
